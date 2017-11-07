@@ -1,0 +1,22 @@
+{
+	"name": "basnik/rtf",
+	"type": "library",
+	"description": "Rich text field with Markup support",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Ales Zrak (Basnik)",
+			"email": "az.ba@tiscali.cz",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"erusev/parsedown": "^1.6"
+	},
+	"autoload": {
+		"classmap": {
+			"classmap": ["src/"]
+		}
+	}
+}
